@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col-12 {
+  overflow: hidden;
+}
+
+.navbar .navbarMenu {
+  width: 600px;
+  height: 100%;
+  display: flex;
+}
+
+.navbar .toggle-icon {
+  display: none;
+}
+
+.navbar .navbarMenu .menuItems {
+  width: 20%;
+  height: 100%;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: start;
+  padding-top: 16px;
+  font-weight: 500;
+
+}
+
+.main_blog .main_left {
+  width: 50%;
+}
+
+.main_blog .main_title {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 50px 50px 50px 0;
+}
+
+.main_blog .main_desc {
+  color: #000000;
+  font-size: 18px;
+
+}
+
+.main_blog .main_btn {
+  width: 200px;
+  height: 50px;
+  box-shadow: 15px 15px 30px rgba(49, 78, 221, 0.25);
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: #3456FE;
+}
+
+.main_blog .main_right {
+  background-image: url(../src/img/bino.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.cards_title {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 50px;
+  text-align: center;
+}
+
+.cards_img {
+  width: 100%;
+}
+
+.news_card {
+  width: 31%;
+}
+
+.wrapper {
+  background: #060928;
+  color: white;
+}
+
+.wrappers_tit {
+  font-size: 40px;
+  margin: 50px 50px 50px 0;
+}
+
+.boxs_tit {
+  font-size: 40px;
+  margin: 50px;
+  text-align: center;
+}
+
+.boxs_blog .boxs_title {
+
+
+  font-size: 50px;
+  font-weight: bold;
+  margin: 50px 50px 0px 50px;
+}
+
+.boxs_blog .boxs_desc {
+  font-size: 20px;
+  margin: 0px 50px 50px 50px;
+
+}
+
+.boxs_blog .boxs_btn {
+  width: 200px;
+  height: 50px;
+  box-shadow: 15px 15px 30px rgba(49, 78, 221, 0.25);
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: #3456FE;
+}
+
+.content_title {
+  margin: 50px;
+  text-align: center;
+}
+
+.lists_right {
+  background: #060928;
+  color: white;
+  padding: 6rem;
+}
+
+.footer_title {
+  padding: 50px;
+}
+
+@media only screen and (max-width: 576px) {
+
+  .navbar .img {
+    margin: 20px;
+  }
+
+  .navbarMenu.expanded .menuItems {
+    top: 2rem;
+    left: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+
+
+  }
+
+  .navbarMenu.expanded {
+    margin: 15px 0;
+    font-size: 24px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar .toggle-icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .navbarMenu .menuItems {
+    display: none;
+
+  }
+
+
+
+  .main_blog .main_left {
+    width: 100%;
+  }
+
+  .main_blog .main_title {
+    font-size: 37px;
+    margin: 30px;
+  }
+
+  .main_blog .main_desc {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .cards_title {
+    font-size: 41px;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  .news_card {
+    width: auto;
+  }
+
+  .boxs_tit {
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .boxs_blog .boxs_title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .xona {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .wrappers_tit {
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .footer_title {
+    text-align: center;
+  }
+
+}
